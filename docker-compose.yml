@@ -25,7 +25,7 @@ services:
       - "8081:8081"
     environment:
       DB_DSN: "host=postgres user=postgres password=interview dbname=interviewaceai port=5432 sslmode=disable"
-      JWT_SECRET: "change-this-to-a-strong-secret-in-production"
+      JWT_SECRET: "InterviewAceAI_2026_SuperSecretKey_123456789"
       JWT_ISSUER: "interviewaceai"
       PORT: "8081"
       ACCESS_TOKEN_MINUTES: "15"
