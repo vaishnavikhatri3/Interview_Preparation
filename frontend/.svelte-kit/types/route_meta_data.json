@@ -1,0 +1,17 @@
+{
+	"/": [],
+	"/dashboard": [],
+	"/interview/history": [],
+	"/interview/result": [],
+	"/interview/session": [],
+	"/interview/start": [],
+	"/interview/[id]": [],
+	"/login": [
+		"src/routes/login/+page.server.ts"
+	],
+	"/practice": [],
+	"/profile": [],
+	"/register": [],
+	"/resume": [],
+	"/timer": []
+}
