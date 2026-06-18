@@ -1,6 +1,6 @@
 import { getAccessToken, clearTokens } from './auth';
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.PUBLIC_API_URL || '/api';
 
 interface ApiOptions {
   method?: string;
