@@ -1,6 +1,6 @@
 import { getAccessToken, clearTokens } from './auth';
 
-const API_BASE = import.meta.env.PUBLIC_API_URL || '/api';
+const API_BASE = import.meta.env.PUBLIC_API_URL || 'https://interview-preparation-4.onrender.com';
 
 interface ApiOptions {
   method?: string;
